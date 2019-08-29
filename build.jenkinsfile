@@ -1,6 +1,7 @@
 node {
     stage('Build') {
         echo 'Building....'
+		python -c 'print("Executed python call")'
     }
     stage('Test') {
         echo 'Testing....'
